@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  background-color: #61dafb;
+  height: 100%;
+  width: 100vw;
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  /* overflow: hidden; */
 }
 
 .App-logo {
@@ -11,6 +18,27 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.randomTag{
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  align-items: center;
+  justify-content: center;
+  /* position: absolute; */
+}
+
+.heading1{
+  width: 98vw;
+  height: fit-content;
+  /* padding: auto; */
+  margin-top: 12px;
+  margin-left: 15px;
+  background-color: white;
+  position: absolute;
+  /* overflow: hidden; */
+  border-radius: 5px;
 }
 
 .App-header {
@@ -35,4 +63,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.button{
+  text-align: center;
+  width: 200px;
+  height: 30px;
 }
